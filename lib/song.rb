@@ -1,8 +1,8 @@
 class Song
 
-:@@count 
-:@@artist ["Jay-Z", "Jay-Z", "Brittany Spears"]
-:@@genres ["rap", "rap", "pop"]
+:@@count
+:@@artist
+:@@genres 
 
   def initialize(name, artist, genre)
     @name = name
