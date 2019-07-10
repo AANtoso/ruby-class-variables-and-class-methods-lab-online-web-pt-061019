@@ -1,8 +1,6 @@
 class Song
 
-:@@count
-:@@artist
-:@@genres 
+class_variable_get(:@@count, :@@artists, :@@genres)
 
   def initialize(name, artist, genre)
     @name = name
