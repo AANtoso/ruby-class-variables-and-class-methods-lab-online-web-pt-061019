@@ -1,6 +1,6 @@
 class Song
 
-class_variable_get(:@@count, :@@artists, :@@genres)
+class_variable_get(:@@count = 0, :@@artists = ["Jay-Z", "Jay-Z", "Brittany Spears"], :@@genres["rap", "rap", "pop"])
 
   def initialize(name, artist, genre)
     @name = name
