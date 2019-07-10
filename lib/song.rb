@@ -22,10 +22,5 @@ attr_accessor :name, :artist, :genre
   def genre
     @genre
   end
-  def count
-    @@count = 3
-  end
-  def count
-    @@count
-  end
+  
 end
