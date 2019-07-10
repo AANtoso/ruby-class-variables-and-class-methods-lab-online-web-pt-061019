@@ -1,3 +1,5 @@
 class Song
-  @new :name, :artist, :genre
+  def initialize(name)
+    @name = name
+  end
 end
