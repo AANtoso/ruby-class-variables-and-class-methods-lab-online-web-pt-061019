@@ -1,6 +1,6 @@
 class Song
 
-:@@count 3
+:@@count 
 :@@artist ["Jay-Z", "Jay-Z", "Brittany Spears"]
 :@@genres ["rap", "rap", "pop"]
 
