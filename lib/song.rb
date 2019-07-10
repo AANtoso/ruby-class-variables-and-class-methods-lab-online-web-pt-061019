@@ -1,4 +1,7 @@
 class Song
+
+@@count == 3
+
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
